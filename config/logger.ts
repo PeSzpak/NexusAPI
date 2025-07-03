@@ -19,7 +19,7 @@ const colors = {
     error: "red",
     warn: "yellow",
     info: "blue",
-    http: "purple",
+    http: "magenta",
     debug: "green"
 };
 
