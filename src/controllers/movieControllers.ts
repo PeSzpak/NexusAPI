@@ -6,5 +6,11 @@ import Logger from "../../config/logger";
 
 
 export async function createMovie(req: Request, res: Response){
-     res.status(200).send("Deu certo o  controller")
+     try {
+        const data = req.body
+        const movie = await MovieModel.create(data)
+        return res.status(201).json(movie)
+     } catch (e: any) {
+        Logger.error(`Erro no sistema: ${e.menssage}`)
+     }
 }

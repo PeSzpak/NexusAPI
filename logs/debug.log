@@ -68,3 +68,35 @@
 2025-07-03 11:13:12:1312 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
 2025-07-03 11:15:06:156 - [35mhttp[39m: [35mPOST /api/movie 200 23 - 2.826 ms[39m
 [35m[39m
+2025-07-03 11:22:34:2234 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:22:34:2234 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:22:52:2252 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:22:52:2252 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:22:55:2255 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:22:55:2255 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:22:58:2258 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:22:58:2258 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:23:03:233 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:23:03:233 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:23:12:2312 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:23:12:2312 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:23:30:2330 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:23:30:2330 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:31:17:3117 - [35mhttp[39m: [35mPOST /api/movie 201 440 - 67.975 ms[39m
+[35m[39m
+2025-07-03 11:31:18:3118 - [35mhttp[39m: [35mPOST /api/movie 201 440 - 36.060 ms[39m
+[35m[39m
+2025-07-03 11:33:36:3336 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:33:36:3336 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:33:51:3351 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:33:51:3351 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:33:55:3355 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:33:55:3355 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:33:59:3359 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:33:59:3359 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:34:03:343 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:34:03:343 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:34:09:349 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:34:09:349 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:34:18:3418 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:34:18:3418 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
