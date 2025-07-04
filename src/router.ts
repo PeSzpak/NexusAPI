@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { createMovie, findAllMovies, findMovieById, removeMovie } from "./controllers/movieControllers";
+import { createMovie, findAllMovies, findMovieById, removeMovie, updateMovie } from "./controllers/movieControllers";
 
 // validations
 import { validate } from "./middleware/handleValidation";
@@ -16,5 +16,6 @@ router.post("/movie", movieCreateValidation(), validate, createMovie);
 router.get("/movie/:id", findMovieById);
 router.get("/movie", findAllMovies);
 router.delete("/movie/:id", removeMovie)
+router.patch("/movie/:id", updateMovie)
 
 export default router;
