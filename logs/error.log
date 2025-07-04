@@ -10,3 +10,7 @@
 2025-07-04 08:54:02:542 - [31merror[39m: [31mNão foi possível conectar![39m
 2025-07-04 08:58:23:5823 - [31merror[39m: [31mNão foi possível conectar![39m
 2025-07-04 09:23:16:2316 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 10:02:07:27 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "6867d0a84009b70b536f198" (type string) at path "_id" for model "Movie"[39m
+2025-07-04 10:02:48:248 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "6867d0a84009b70b536f198" (type string) at path "_id" for model "Movie"[39m
+2025-07-04 10:03:43:343 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "6867d0a84009b70b536f198" (type string) at path "_id" for model "Movie"[39m
+2025-07-04 10:04:05:45 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "6867d0a84009b70b536f198" (type string) at path "_id" for model "Movie"[39m
