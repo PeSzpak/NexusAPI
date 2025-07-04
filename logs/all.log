@@ -100,3 +100,67 @@
 2025-07-03 11:34:09:349 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
 2025-07-03 11:34:18:3418 - [34minfo[39m: [34mConectou ao banco de dados![39m
 2025-07-03 11:34:18:3418 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:53:57:5357 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:53:57:5357 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:55:42:5542 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:55:42:5542 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:00:560 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:00:560 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:05:565 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:05:565 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:17:5617 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:17:5617 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:20:5620 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:20:5620 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:24:5624 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:24:5624 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:25:5625 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:25:5625 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:27:5627 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:27:5627 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:56:35:5635 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:56:35:5635 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 11:57:45:5745 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 11:57:45:5745 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:00:22:022 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:00:22:022 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:00:27:027 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:00:27:027 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:00:29:029 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:00:29:029 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:00:32:032 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:00:32:032 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:01:00:10 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:01:01:11 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:01:12:112 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:01:12:112 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:01:14:114 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:01:14:114 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:01:17:117 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:01:17:117 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 12:01:24:124 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-03 12:01:24:124 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-03 13:33:50:3350 - [31merror[39m: [31mErro no sistema: 40589CA0D47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80[39m
+[31m[39m
+2025-07-03 13:33:50:3350 - [35mhttp[39m: [35mPOST /api/movie 500 35 - 30018.908 ms[39m
+[35m[39m
+2025-07-03 13:34:31:3431 - [31merror[39m: [31mErro no sistema: 40589CA0D47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80[39m
+[31m[39m
+2025-07-03 13:34:31:3431 - [35mhttp[39m: [35mPOST /api/movie 500 35 - 30003.068 ms[39m
+[35m[39m
+2025-07-04 08:42:17:4217 - [31merror[39m: [31mErro no sistema: 40589CA0D47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80[39m
+[31m[39m
+2025-07-04 08:42:17:4217 - [35mhttp[39m: [35mPOST /api/movie 500 35 - 30012.838 ms[39m
+[35m[39m
+2025-07-04 08:44:28:4428 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:46:42:4642 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:52:34:5234 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:54:02:542 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:58:17:5817 - [35mhttp[39m: [35mGET /api/test 200 12 - 3.659 ms[39m
+[35m[39m
+2025-07-04 08:58:23:5823 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 09:23:16:2316 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 09:26:06:266 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-04 09:26:06:266 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m
+2025-07-04 09:26:19:2619 - [34minfo[39m: [34mConectou ao banco de dados![39m
+2025-07-04 09:26:19:2619 - [34minfo[39m: [34mAplicação está funcionando na porta:3000[39m

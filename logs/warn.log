@@ -1,0 +1,12 @@
+2025-07-03 13:33:50:3350 - [31merror[39m: [31mErro no sistema: 40589CA0D47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80[39m
+[31m[39m
+2025-07-03 13:34:31:3431 - [31merror[39m: [31mErro no sistema: 40589CA0D47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80[39m
+[31m[39m
+2025-07-04 08:42:17:4217 - [31merror[39m: [31mErro no sistema: 40589CA0D47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80[39m
+[31m[39m
+2025-07-04 08:44:28:4428 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:46:42:4642 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:52:34:5234 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:54:02:542 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 08:58:23:5823 - [31merror[39m: [31mNão foi possível conectar![39m
+2025-07-04 09:23:16:2316 - [31merror[39m: [31mNão foi possível conectar![39m
