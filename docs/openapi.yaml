@@ -1,0 +1,211 @@
+openapi: 3.0.3
+info:
+  title: NexusAPI
+  version: 1.0.0
+  description: CRUD de filmes em Express + TypeScript + MongoDB (Mongoose). Escrito à mão a partir de src/router.ts e src/controllers/movieControllers.ts.
+servers:
+  - url: http://localhost:3000/api
+security: []
+tags:
+  - name: movies
+paths:
+  /test:
+    get:
+      summary: Health check
+      operationId: test
+      responses:
+        '200':
+          description: Texto fixo
+          content:
+            text/html:
+              schema:
+                type: string
+                example: API Working!
+  /movie:
+    get:
+      tags: [movies]
+      summary: Lista todos os filmes
+      operationId: findAllMovies
+      responses:
+        '200':
+          description: Lista de filmes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Movie'
+        '500':
+          $ref: '#/components/responses/ServerError'
+    post:
+      tags: [movies]
+      summary: Cria um filme
+      operationId: createMovie
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MovieInput'
+      responses:
+        '201':
+          description: Filme criado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Movie'
+        '422':
+          description: Falha de validação (express-validator)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: array
+                    items:
+                      type: object
+                      additionalProperties:
+                        type: string
+              example:
+                errors:
+                  - title: Titulo precisa ter no minimo 5 caracteres
+                  - rating: A nota precisa ser entre 0 a 10
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /movie/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        description: ObjectId do MongoDB (id fora do formato retorna 500)
+        schema:
+          type: string
+          example: 6b06166fbce9c446d65cb8a9
+    get:
+      tags: [movies]
+      summary: Busca um filme
+      operationId: findMovieById
+      responses:
+        '200':
+          description: Filme
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Movie'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/ServerError'
+    patch:
+      tags: [movies]
+      summary: Atualiza campos de um filme (sem validação)
+      description: Responde com o próprio body enviado, não com o documento atualizado.
+      operationId: updateMovie
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              description: Qualquer campo de MovieInput; nada é validado.
+            example:
+              rating: 9
+      responses:
+        '200':
+          description: Eco do body enviado
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/ServerError'
+    delete:
+      tags: [movies]
+      summary: Remove um filme
+      operationId: removeMovie
+      responses:
+        '200':
+          description: Removido
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  msg:
+                    type: string
+                    example: O filme foi removido com sucesso
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/ServerError'
+components:
+  responses:
+    NotFound:
+      description: Filme não existe
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+                example: O filme não existe
+    ServerError:
+      description: Erro interno (inclui id que não é ObjectId)
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+  schemas:
+    MovieInput:
+      type: object
+      required: [title, rating, description, director, poster]
+      properties:
+        title:
+          type: string
+          minLength: 5
+          example: Filme Exemplo
+        kind:
+          type: string
+          example: Drama
+        description:
+          type: string
+          example: Um filme fictício para testar a API.
+        rating:
+          type: number
+          minimum: 0
+          maximum: 10
+          example: 8.5
+        director:
+          type: string
+          example: Diretora Exemplo
+        stars:
+          type: array
+          items:
+            type: string
+          example: [Ator A, Atriz B]
+        poster:
+          type: string
+          format: uri
+          example: https://example.com/poster.jpg
+    Movie:
+      allOf:
+        - $ref: '#/components/schemas/MovieInput'
+        - type: object
+          properties:
+            _id:
+              type: string
+            createdAt:
+              type: string
+              format: date-time
+            updatedAt:
+              type: string
+              format: date-time
+            __v:
+              type: integer
